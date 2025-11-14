@@ -21,6 +21,7 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: |
+        sudo apt install unzip -y
         sudo apt install maven -y
         mvn compile
 
