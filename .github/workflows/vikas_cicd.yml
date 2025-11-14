@@ -139,6 +139,6 @@ jobs:
        uses: docker/build-push-action@v6
        with:
           push: true
-          tags: vikas/RD_app:latest
+          tags: vikasrd/git-actions:latest
       
 
