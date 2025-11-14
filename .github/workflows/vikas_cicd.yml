@@ -138,7 +138,10 @@ jobs:
      - name: Build and push
        uses: docker/build-push-action@v6
        with:
-          push: true
-          tags: vikasrd/git-actions:latest
+         context: .
+         push: true
+         tags: vikasrd/git-actions:latest
+         file: ./Dockerfile
+          
       
 
